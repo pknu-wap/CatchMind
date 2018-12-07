@@ -52,6 +52,7 @@
 #chat {
   height: 550px;
   width: 195px;
+  background-color: aqua;
   overflow-y: auto;
 }
 
@@ -77,7 +78,7 @@
 .me {
   width: 195px;
   margin: auto;
-  background-color: lemonchiffon;
+  background-color: darksalmon;
   border-radius: 5px;
   margin-top: 10px;
 }
