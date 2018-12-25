@@ -52,6 +52,7 @@ io.sockets.on('connection', function (socket) {
     socket.on('create_room', function (data) {
         io.sockets.emit('create_room', data.toString());
     });
+    /*새로운 사용자 접속*/
     socket.on('newUser',function (name) {
         console.log(name + ' 님이 접속하였습니다');
 
